@@ -13,6 +13,7 @@ async function asyncWrapper() {
   await client.connect();
   console.log("Succefuly connected to DB");
 
+
   /** @type {String[]} */
   const files = await new Promise((res, rej) => {
     glob(path.resolve(dataPath, "**/*.geojson"), (error, matches) => {
