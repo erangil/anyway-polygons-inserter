@@ -1,5 +1,5 @@
 # anyway-polygons-inserter
-This node.js project is intended to insert polygons into municipalities table.
+This node.js project is intended to insert polygons into municipalities table (make sure that table exist post alembic upgrade).
 
 In order to run it please follow these steps:
 1. Download the inserter project into your env: https://github.com/erangil/anyway-polygons-inserter
